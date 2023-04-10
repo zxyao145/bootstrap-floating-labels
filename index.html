@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./dist/index.css">
+  <style>
+    .form-floating{
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-floating">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+    <label for="floatingInput">Email address</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" disabled class="form-control" id="floatingPassword" placeholder="Password" />
+    <label for="floatingPassword">Password</label>
+  </div>
+
+  <div class="form-floating">
+    <input readonly class="form-control form-control-plaintext" id="floatingPassword" placeholder="Password" />
+    <label for="floatingPassword">readonly</label>
+  </div>
+
+  <div class="form-floating">
+    <input readonly value="readonly" class="form-control form-control-plaintext" id="floatingPassword" placeholder="Password" />
+    <label for="floatingPassword">readonly</label>
+  </div>
+   
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">Comments</label>
+  </div>
+
+  <div class="form-floating">
+    <select class="form-control" id="floatingSelect" aria-label="Floating label select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <label for="floatingSelect">Works with selects</label>
+  </div>
+</body>
+
+</html>
